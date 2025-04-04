@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-div form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.form-div form .instaLogo {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.form-div form .input {
+    width: 90%;
+    padding: .6rem;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+}
+
+.login-btn {
+    width: 97%;
+    padding: .4rem;
+    font-weight: 700;
+    background-color: rgb(1, 183, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+}
+
+#or {
+    margin: 20px 0;
+}
+
+#or:before,
+#or:after {
+    content: '------------------------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+}
+
+.fb-login {
+    font-weight: 700;
+    font-size: 0.9rem;  
+    color: rgb(85, 0, 255);
+    margin-top: 5px;    
+    margin-bottom: 20px;
+}
+
+.sign-up {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 20px;
+    margin: 10px;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+}
+
+#play {
+    width: 190px;
+}
+
+#microsoft {
+    width: 135px;
+    border-radius: 8px;
+}
+.phoneImg {
+    width: 250px;      
+    max-width: 100%;
+    height: auto;
+}
+.frg-password {
+    font-size: 0.9rem;  
+    color: rgb(85, 0, 255);  
+    margin-top: 10px;
+}
+
+footer {
+    background-color: white;
+    color: rgba(16, 15, 15, 0.6);
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.footer-links a {
+    color: rgba(16, 15, 15, 0.6);
+    text-decoration: none;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

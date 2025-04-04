@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/DjangoProject2.iml" filepath="$PROJECT_DIR$/.idea/DjangoProject2.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/DjangoProject1.iml" filepath="$PROJECT_DIR$/.idea/DjangoProject1.iml" />
+>>>>>>> 685617dd58c859c29746fd2bc1631de26178306f
     </modules>
   </component>
 </project>

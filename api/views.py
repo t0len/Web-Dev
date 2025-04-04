@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
@@ -126,3 +127,34 @@ def vacancy_detail(request, id):
     elif request.method == 'DELETE':
         vacancy.delete()
         return Response({'deleted': True})
+=======
+from django.shortcuts import render
+
+# Create your views here.
+from rest_framework import generics
+from .models import Product, Category
+from .serializers import ProductSerializer, CategorySerializer
+
+class ProductList(generics.ListAPIView):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
+class ProductDetail(generics.RetrieveAPIView):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
+class CategoryList(generics.ListAPIView):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
+
+class CategoryDetail(generics.RetrieveAPIView):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
+
+class ProductsByCategory(generics.ListAPIView):
+    serializer_class = ProductSerializer
+
+    def get_queryset(self):
+        category_id = self.kwargs['id']
+        return Product.objects.filter(category_id=category_id)
+>>>>>>> 685617dd58c859c29746fd2bc1631de26178306f

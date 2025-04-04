@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
+<<<<<<< HEAD
     <option name="sdkName" value="Python 3.12 (DjangoProject2)" />
+=======
+    <option name="sdkName" value="Python 3.12 (DjangoProject1)" />
+>>>>>>> 685617dd58c859c29746fd2bc1631de26178306f
   </component>
 </project>
